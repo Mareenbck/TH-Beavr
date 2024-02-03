@@ -1,0 +1,45 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Theme {
+  id        Int         @id @default(autoincrement())
+  title     String      @unique
+  question  Question[]  @relation("Theme")
+}
+
+model SubTheme {
+  id        Int         @id @default(autoincrement())
+  title     String      @unique
+  question  Question[]  @relation("SubTheme")
+
+}
+
+model Guideline {
+  id              Int         @id @default(autoincrement())
+  indicator       String
+  description     String?
+  internal_id     String      @unique
+  question        Question[]  @relation("Guideline")
+}
+
+model Question {
+  id            Int         @id @default(autoincrement())
+  theme		      Theme				@relation("Theme", fields: [themeId], references: [id])
+	themeId		    Int
+	subtheme		  SubTheme		@relation("SubTheme", fields: [subThemeId], references: [id])
+	subThemeId		Int
+  guideline		  Guideline		@relation("Guideline", fields: [guidelineId], references: [id])
+	guidelineId		Int
+  result        Json?
+
+  @@unique([themeId, subThemeId, guidelineId])
+}

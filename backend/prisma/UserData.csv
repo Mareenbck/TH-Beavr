@@ -1,0 +1,146 @@
+id;theme;subtheme;indicator;description;entity;period;value;unit
+i1;General Information;Company information;"""NACE"" code of the company";"Please indicate the ""NACE"" code of the company (if applicable and at the most precise level e.g. ""64.30"")
+If the company has several Nace codes, please specify all these codes.";HQ;2023;1234;Text
+i10;Governance;CSR governance;Number of underrepresented members on the Board;Please provide the number of underrepresented members on the Board of Directors (or Supervisory Board);HQ;2023;1 Number;Number
+i100;Social;Diversity, equity and inclusion;Percentage of employees with disabilities;;HQ;2023;2.53 %;Percentage
+i101;Social;Diversity, equity and inclusion;Percentage of employees with disabilities occupying positions of responsibility (excluding board of directors);;HQ;2023;2.53 %;Percentage
+i102;Social;Diversity, equity and inclusion;Percentage of women in management teams;;HQ;2023;40 %;Percentage
+i103;Social;Diversity, equity and inclusion;Professional equality index (score);;HQ;2023;44 %;Percentage
+i104;Social;Diversity, equity and inclusion;Unadjusted pay gap (%);;HQ;2023;11%;Percentage
+i105;Social;Diversity, equity and inclusion;Number of alerts launched for discrimination or harassment situations;;HQ;2023;0 Number;Number
+i106;Social;Diversity, equity and inclusion;Number of confirmed or harassment discrimination incidents;;HQ;2023;0 Number;Number
+i107;Social;Diversity, equity and inclusion;Professional gender equality index;(only for French companies) Has the company calculated its professional gender equality index, in accordance with the legal obligation for all companies with more than 50 employees? If so, please provide the overall score in the comments.;HQ;2023;True;True/False
+i108;Social;Diversity, equity and inclusion;Number of women among the 10 highest-paid profiles;How many women are there among the 10 highest-paid profiles of the company over the reporting period?;HQ;2023;5;Number
+i109;Ethics;Competitive behaviour;Convictions for anti-competitive behavior, anti-trust or monopoly practices;Did your company has been accused and found guilty for concerns associated with anti-competitive behavior, anti-trust or monopoly practices within the last reporting period (yes/no)?;HQ;2023;False;True/False
+i11;Governance;CSR governance;Number of underrepresented members on the Executive or Management Committee;Please provide the number of underrepresented members on the Executive or Management Committee;HQ;2023;7;Number
+i110;Ethics;Corruption and conflict of interest;Initiatives to safeguard against illegal practices;What does the organisation currently do to safeguard against illegal practices? Has the organisation had any issues in relation to illegal practices (i.e. corruption/fraud) in the past? How has this been detected and resolved?;HQ;2023;NA;Text
+i111;Ethics;Corruption and conflict of interest;ABC policy and training;Please provide details of the company’s anti-bribery and corruption policy? How many employees have received anti-bribery and corruption training to date?;HQ;2023;Find it enclosed;Text
+i112;Ethics;Corruption and conflict of interest;Percentage of operational sites for which an assessment of corruption risks has been carried out;;HQ;2023;67%;Percentage
+i113;Ethics;Corruption and conflict of interest;Percentage of employees trained on ethics;;HQ;2023;0 %;Percentage
+i114;Ethics;Corruption and conflict of interest;Percentage of employees who have signed the company's code of conduct;;HQ;2023;95%;Percentage
+i115;Ethics;Corruption and conflict of interest;Percentage of employees trained in the risk of corruption;;HQ;2023;0 %;Percentage
+i116;Ethics;Corruption and conflict of interest;Number of alerts launched for corruption situations;;HQ;2023;0 Number;Number
+i117;Ethics;Corruption and conflict of interest;Number of confirmed corruption incidents;;HQ;2023;0 Number;Number
+i118;Ethics;Corruption and conflict of interest;Number of convictions for violation of corruption laws;;HQ;2023;0 Number;Number
+i119;Ethics;Fraud and money laundering;Percentage of employees trained on fraud risks;;HQ;2023;0 %;Percentage
+i12;Governance;CSR governance;Corporate governance management;How is corporate governance managed across the company (i.e. regular staff meetings, internal financial controls, code of ethics);HQ;2023;NA;Text
+i120;Ethics;Fraud and money laundering;Number of alerts launched for fraud situations;;HQ;2023;1 Number;Number
+i121;Ethics;Fraud and money laundering;Number of confirmed fraud incidents;;HQ;2023;1 Number;Number
+i122;Ethics;Fraud and money laundering;Number of convictions for violation of laws in matters of fraud;;HQ;2023;0 Number;Number
+i123;Ethics;Information security;Personal data collection;Do you collect personal data to: A) optimise your product or service, B) comply with your legal obligations or C) both?;HQ;2023;Both;Multiple Choice
+i124;Ethics;Information security;GDPR/ CCPA (California) compliance assessment;When was the last time you carried out a GDPR/ CCPA (California) compliance assessment?;HQ;2023;NA;Text
+i125;Ethics;Information security;Percentage of employees trained on information security risks;;HQ;2023;100 %;Percentage
+i126;Ethics;Information security;Number of alerts launched relative to data security and/or confidentiality;;HQ;2023;17;Number
+i127;Ethics;Information security;Number of confirmed incidents relating to data security and personal data protection;;HQ;2023;18;Number
+i128;Sustainable procurement;Supply chain diversity;Percentage of purchases made with suppliers who promote inclusion (ESS, adapted companies);;HQ;2023;0 %;Percentage
+i129;Sustainable procurement;Sustainable procurement practices;CSR assessment of suppliers;Do you take on board social and environmental factors when evaluating/ monitoring your suppliers? (e.g. including D&I, labour opportunities, underrepresented/ minority groups, locality, fair pay);HQ;2023;True;True/False
+i13;Governance;CSR governance;Assessment of innovations' ethical implications and adverse impacts;Does your company assess possible ethical implications and adverse impacts of its innovation?;HQ;2023;Data not available;True/False
+i130;Sustainable procurement;Sustainable procurement practices;Percentage of suppliers who have signed the suplier code of conduct;;HQ;2023;0 %;Percentage
+i131;Sustainable procurement;Sustainable procurement practices;Percentage of suppliers evaluated on their CSR approach;;HQ;2023;0 %;Percentage
+i132;Sustainable procurement;Sustainable procurement practices;Percentage of suppliers with formal environmental / social clauses in their contract;;HQ;2023;0 %;Percentage
+i133;Sustainable procurement;Sustainable procurement practices;Percentage of suppliers who have been subjected to an on-site CSR audit;;HQ;2023;0 %;Percentage
+i134;Sustainable procurement;Sustainable procurement practices;Percentage of buyers trained on sustainable procurement;;HQ;2023;100 %;Percentage
+i14;Governance;CSR governance;CSR officer;Does the organization have a CSR officer?;HQ;2023;True;True/False
+i15;Governance;CSR governance;CSR Manager in the first decision-making body;Is the CSR Manager a member of the first decision-making body or directly connected to a member of the first decision making body?;HQ;2023;False;True/False
+i16;Governance;CSR governance;Specific CSR status for the organization;"Does the company have or is it in the process of obtaining a particular CSR status (e.g. ""Benefit Corporation"" or French ""entreprise à mission"")? If so, which one(s)?";HQ;2023;False;True/False
+i17;Governance;CSR governance;ESG on board agenda;Is ESG a regular item on your board agenda? ;HQ;2023;False;True/False
+i18;Governance;CSR organization;CSR Label or certification;"Did the company obtain one or several CSR Label or certification?
+If yes please specify";HQ;2023;False;True/False
+i19;Governance;CSR organization;initiatives to manage and mitigate CSR risks;Indicate which of the following initiatives the company has implemented to manage and mitigate its CSR risks;HQ;2023;NA;Text
+i2;General Information;Company information;Geographical location/key countries you operate in;"Describe the geographical location/key countries you operate in
+Please provide details of operations in emerging markets.";HQ;2023;NA;Text
+i20;Governance;CSR organization;CSR objectives in variable compensation ;Are CSR objectives included in the variable compensation of the first decision-making body?;HQ;2023;True;True/False
+i21;Environment;GHG management;Activity in the fossil fuel sector;Is your company active in the fossil fuel sector?;HQ;2023;False;True/False
+i22;Environment;GHG management;Carbon footprint assessment;Has the management company carried out a carbon footprint assessment?;HQ;2023;True;True/False
+i23;Environment;GHG management;Date and time frame of your latest carbon footprint assessment;Please provide the date and time frame of your latest assessment;HQ;2023;NA;Text
+i24;Environment;GHG management;Carbon footprint assessment scope;Please provide the scope of your latest carbon footprint assessment (scope 1, 2 or 3);HQ;2023;NA;Text
+i25;Environment;GHG management;Carbon footprint result;"Please provide the results of your latest carbon footprint assessment (Metric tons of CO2e per scope)
+Please also attach your calculation/report";HQ;2023;NA;Text
+i26;Environment;GHG management;Physical vulnerability to climate change;Has the company assessed its physical vulnerability to climate change (including extreme climate events, global warming, sea level rise, etc.)?;HQ;2023;False;True/False
+i27;Environment;GHG management;Vulnerability to transition risks associated with climate change;Has the company assessed its vulnerability to transition risks associated with climate change (regulatory changes, new market trends, technological issues, implications in terms of company reputation)?;HQ;2023;False;True/False
+i28;Environment;GHG management;Initiatives to mitigate climate risks;If the company is exposed to one or more significant climate risks (physical or transition risks), specify and indicate what mitigation initiatives have been implemented?;HQ;2023;NA;Text
+i29;Environment;GHG management;Total GHG emissions;Please provide the total GHG emissions for the past year;HQ;2023;4789 TeqCO2;CO2 ton equivalent
+i3;General Information;Company information;Involvement in the manufacture or selling of controversial weapons;Is your company involved in the manufacture or selling of controversial weapons?/Is the company involved in the following activities: antipersonnel mines, cluster munitions, chemical weapons and biological weapons?;HQ;2023;False;True/False
+i30;Environment;GHG management;GHG Emissions - Scope 1;Please provide the total Scope 1 GHG emissions for the past year;HQ;2023;9.6 TeqCO2;CO2 ton equivalent
+i31;Environment;GHG management;GHG Emissions - Scope 2;Please provide the total Scope 2 GHG emissions for the past year;HQ;2023;1 TeqCO2;CO2 ton equivalent
+i32;Environment;GHG management;GHG Emissions - Scope 3;Please provide the total Scope 3 GHG emissions for the past year;HQ;2023;2389 TeqCO2;CO2 ton equivalent
+i33;Environment;GHG management;GHG Emissions - Scope 3 upstream;Please provide the total upstream Scope 3 GHG emissions for the past year;HQ;2023;2389 TeqCO2;CO2 ton equivalent
+i34;Environment;GHG management;GHG Emissions - Scope 3 downstream;Please provide the total downstream Scope 3 GHG emissions for the past year;HQ;2023;0 TeqCO2;CO2 ton equivalent
+i35;Environment;GHG management;Total GHG emissions compensated via the purchase of verified carbon credits;Please indicate if you compensated a part of your GHG emissions through the purchase of verified carbon credits, and if yes which amount;HQ;2023;25 TeqCO2;CO2 ton equivalent
+i36;Environment;GHG management;Number of employees trained on climate and environmental issues;How many employees did you train on climate and environmental issues of the pas year?;HQ;2023;130 Number;Number
+i37;Environment;Energy management;Total energy consumption (MWh);Please provide the total energy consumption for the reporting year;HQ;2023;39.8 MWh;Mega-Watt Heure
+i38;Environment;Energy management;Renewable energy consumption (MWh);Please provide the total energy consumed from renewable sources for the reporting year;HQ;2023;9.6 MWh;Mega-Watt Heure
+i39;Environment;Energy management;Share of renewable energy consumed;Please provide the share of renewable energy used or consumer over the past year;HQ;2023;32 %;Percentage
+i4;General Information;Company information;Formalized environmental policy;Does the company have a formalized environmental policy?;HQ;2023;True;True/False
+i40;Environment;Waste management;Total waste generated;Please provide the total tonnes of waste generated by your company within the last reporting period;HQ;2023;0.25 metric Tons;metric Tons
+i41;Environment;Waste management;Hazardous waste production;"As part of its activities, does the company produce hazardous waste? 
+If so, please specify in comments the total quantity of hazardous waste generated in tons during the year";HQ;2023;True;True/False
+i42;Environment;Waste management;Quantity of non-hazardous waste;Please provide the total quantity of non-hazardous waste produced;HQ;2023;0.25 metric Tons;metric Tons
+i43;Environment;Waste management;Quantity of hazardous waste;Please provide the total quantity of hazardous waste produced;HQ;2023;0.001 metric Tons;metric Tons
+i44;Environment;Waste management;Quantity of recycled or upcycled waste;Please provide the quantity of recycled or upcycled waste produced;HQ;2023;0.2 metric Tons;metric Tons
+i45;Environment;Waste management;Percentage of waste recycling / upcycling;Percentage of waste recycling / upcycling;HQ;2023;95 %;Percentage
+i46;Environment;Water management;Water consumption reduction initiatives;Did you implement initiatives to lower water consumption ?;HQ;2023;False;True/False
+i47;Environment;Water management;Total water consumption;Please provide the total water consumption (m³) of your company within the last reporting period;HQ;2023;220 m3;Cubic Meters
+i48;Environment;Biodiversity;Materiality assessment on biodiversity;"Indicate if the company has carried out a materiality assessment on biodiversity (impact and dependency) and should be considered as a company with a high biodiversity challenge
+If yes, please specify in comments";HQ;2023;False;True/False
+i49;Environment;Biodiversity;Formalized a biodiversity protection policy / strategy;"Indicate if the company has formalized a biodiversity protection policy / strategy (commitments and objectives)
+If yes, please attach the document";HQ;2023;False;True/False
+i5;General Information;Certifications;Environmental certifications (e.g. ISO, EMAS,…);"Has the company been awarded any environmental certifications (e.g. ISO, EMAS,…)?
+If yes please provide details";HQ;2023;False;True/False
+i50;Environment;Promotion of sustainable behaviour;Number of guides and information manuals on responsible use of products and services made available to customers;How many guides / tutorials on how to use your products or services in a sustainable way do you hve?;HQ;2023;10 Number;Number
+i51;Environment;Promotion of sustainable behaviour;Number of projects related to the sustainability sold and carried out over the period;How many projects or services related to sustainability did you sell or propose to customers over the past year?;HQ;2023;10 Number;Number
+i52;Environment;Promotion of sustainable behaviour;"Proportion of offers for which an impact mitigation solution (e, g., ""Carbon compensation"") is offered";For what percentage of customer contracts do you propose an impact mitigation solution (such as offsetting the carbon footprint)?;HQ;2023;101 %;Percentage
+i53;Environment;Promotion of sustainable behaviour;Amount of GHG emissions compensated for customers;What is the total amount of GHG emissions compensated for customers?;HQ;2023;10 TeqCO2;CO2 ton equivalent
+i54;Social;Working conditions;Total number of permanent and non permanent employees of the company on December 31, N;Please provide the total number of permanent and non permanent employees of the company on December 31, N;HQ;2023;219 Number;Number
+i55;Social;Working conditions;Number of non permanent employees of the company on December 31,N;Total non-permanent headcount employee headcount at the end of the period (temporary contracts);HQ;2023;1 Number;Number
+i56;Social;Working conditions;Number of FTE in France as of December 31, N;Please provide the total number of FTE in France at the end of the period;HQ;2023;78.3 Number;Number
+i57;Social;Working conditions;Number of FTE in part-time work as of December 31, N;Please provide the total number of FTE in part-time work at the end of the period;HQ;2023;2.6 Number;Number
+i58;Social;Working conditions;Number of FTE hired during the year;Please provide the total number of FTE hired during the year (number of organic net new hires);HQ;2023;19.5 Number;Number
+i59;Social;Working conditions;Number of FTE departures during the year (wanted and unwanted);Please provide the total number of FTE departures during the year (wanted and unwanted);HQ;2023;83.8 Number;Number
+i6;General Information;Company information;Internal process or compliance mechanism to monitor compliance with the principles of the UNGC;"Has the company developed an internal process and / or a compliance mechanism to monitor compliance with the principles of the United Nations Global Compact and / or the OECD Guidelines for Multinational Enterprises? 
+If so, specify in the comments";HQ;2023;True;True/False
+i60;Social;Working conditions;Profit-sharing mechanism for employees;"Has the company set up a profit-sharing system for its employees? 
+Please detail the mechanisms in place (interessement, participation, etc.), and indicate for each if it covers all employees or a share of employees (and if so, which)";HQ;2023;True;True/False
+i61;Social;Working conditions;Capital detained by employees;Please indicate the capital detained by the employees (as a % of share of capital);HQ;2023;undefined %;Percentage
+i62;Social;Working conditions;Code of conduct and employee handbook;Do you have a team code of conduct and employee handbook? (incl. anti-harassment, anti-bullying policy, non-discrimination statements, forced labour statement, long working hours) ;HQ;2023;True;True/False
+i63;Social;Working conditions;Percentage of employees who responded to a satisfaction survey;;HQ;2023;61 %;Percentage
+i64;Social;Working conditions;Employee satisfaction score;;HQ;2023;15 /100;Score / 100
+i65;Social;Working conditions;Percentage of employees benefiting from a profit -sharing mechanism;;HQ;2023;100 %;Percentage
+i66;Social;Working conditions;Percentage of employees benefiting from a flexible work organization;;HQ;2023;100 %;Percentage
+i67;Social;Working conditions;Percentage of employees covered by an analysis on the payment of a living wage;;HQ;2023;100 %;Percentage
+i68;Social;Working conditions;Percentage of workers under contracts covered by an analysis on the payment of a living wage;;HQ;2023;100 %;Percentage
+i69;Social;Working conditions;Percentage of employees paid below the reference living wage;;HQ;2023;0 %;Percentage
+i7;Governance;CSR governance;Number of independent board members;Please provide the number of independent board members on the Board of Directors (or Supervisory Board);HQ;2023;2 Number;Number
+i70;Social;Working conditions;Percentage of workers under contracts paid below the reference living wage;;HQ;2023;0 %;Percentage
+i71;Social;Working conditions;Average deviation percentage compared to the reference living wage for employees paid below the living wage;;HQ;2023;0 %;Percentage
+i72;Social;Health and safety;Accident frequency rate;What was the accident frequency rate last year?;HQ;2023;0 Number;Number
+i73;Social;Health and safety;Accident severity rate;What was the accident severity rate last year?;HQ;2023;0 Number;Number
+i74;Social;Health and safety;Lost days of work due to work accidents;Please provide the number of lost days of work due to work accidents on the physical headcount covered by the reporting over the past year;HQ;2023;0 Number;Number
+i75;Social;Health and safety;Absenteeism rate;What was the absenteeism rate last year?;HQ;2023;3.29 Number;Number
+i76;Social;Health and safety;Fatal injuries;"Have any employees been fatally injured at work in the past year? 
+If yes, please specify";HQ;2023;False;True/False
+i77;Social;Health and safety;Health and safety policy and action plan;Does the company have a health and safety policy and action plan, especially regarding workplace accident prevention?;HQ;2023;True;True/False
+i78;Social;Health and safety;Number of work accidents;;HQ;2023;0 Number;Number
+i79;Social;Health and safety;Number of work accidents with lost time greater than 24 hours;;HQ;2023;0 Number;Number
+i8;Governance;CSR governance;Number of members in the first decision-making body;Please provide the number of members in the first decision-making body.  Ex: Executive Board, Executive committee…;HQ;2023;8 Number;Number
+i80;Social;Health and safety;Percentage of employees benefiting from health coverage (mutual / provident);;HQ;2023;100 %;Percentage
+i81;Social;Health and safety;Percentage of employees who have completed a mandatory health check-up;;HQ;2023;100 %;Percentage
+i82;Social;Health and safety;Percentage of operational sites for which an assessment of health and safety risks has been carried out;;HQ;2023;100 %;Percentage
+i83;Social;Health and safety;Percentage of the total workforce (all sites) represented in a joint health and safety work committee;;HQ;2023;36 %;Percentage
+i84;Social;Career management and training;Performance management processes and reviews;Do you have performance management processes and reviews and is there a transparent path for promotion/ movement within the company?;HQ;2023;True;True/False
+i85;Social;Career management and training;Mechanisms in place or team comms, review and feedback;What mechanisms do you have in place for team comms, review and feedback?;HQ;2023;NA;Text
+i86;Social;Career management and training;Number of employees trained;Please provide the number of employees in the permanent workforce who have attended at least one training course between 1 January and 31 December of year N;HQ;2023;219 Number;Number
+i87;Social;Career management and training;Total number of training hours provided;;HQ;2023;4423 Number;Number
+i88;Social;Career management and training;Average number of training hours per employee;;HQ;2023;20.19 Number;Number
+i89;Social;Career management and training;Percentage of employees who have received periodic evaluation and career development interviews;;HQ;2023;100 %;Percentage
+i9;Governance;CSR governance;Independent Chairman of the Board;Is there an independent Chairman of the Board?;HQ;2023;False;True/False
+i90;Social;Career management and training;Percentage of the total workforce (all sites) having received training linked to their career or the acquisition of new skills;;HQ;2023;25 %;Percentage
+i91;Social;Social dialogue;Percentage of the total workforce (all sites) with representatives of employees formally elected;;HQ;2023;36 %;Percentage
+i92;Social;Social dialogue;Percentage of employees covered by formal collective bargaining agreements;;HQ;2023;36 %;Percentage
+i93;Social;Diversity, equity and inclusion;Number of female FTE with permanent contracts;Please provide the total number of female FTE with permanent contracts at the end of the period;HQ;2023;72 Number;Number
+i94;Social;Diversity, equity and inclusion;Pay gap analysis;Have you done a pay gap analysis between genders and ethnicity?;HQ;2023;True;True/False
+i95;Social;Diversity, equity and inclusion;Diversity split of C-suite;What is the diversity split of your C-suite?;HQ;2023;NA;Text
+i96;Social;Diversity, equity and inclusion;Number of women in the first decision-making body;Please provide the number of women in the first decision-making body. Ex: Executive Board, Executive committee…;HQ;2023;3 Number;Number
+i97;Social;Diversity, equity and inclusion;Number of women on the Executive or Management Committee;Please provide the number of women on the Executive or Management Committee;HQ;2023;3 Number;Number
+i98;Social;Diversity, equity and inclusion;Percentage of employees trained on diversity and inclusion;;HQ;2023;100 %;Percentage
+i99;Social;Diversity, equity and inclusion;Percentage of the total workforce (all sites) having received training on diversity, discrimination or harassment;;HQ;2023;100 %;Percentage
