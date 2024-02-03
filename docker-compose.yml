@@ -1,0 +1,57 @@
+version: "3.9"  # optional since v1.27.0
+
+services:
+  api:
+    container_name: "backend"
+    build:
+      context: ./backend/
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    volumes:
+      - ./backend:/usr/src/app
+      - back_node_modules:/usr/src/app/node_modules
+    env_file:
+        - ./backend/.env
+    ports:
+      - 5555:5555
+      - 3000:3000
+    networks:
+      - beavr
+
+  postgres:
+    image: postgres:latest
+    container_name: "postgres"
+    restart: always
+    volumes:
+      - my-postgres-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    env_file:
+      - ./backend/.env
+    networks:
+      - beavr
+
+
+  frontend:
+    container_name: react
+    build:
+      context: ./frontend/
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend:/usr/src/app
+      - front_node_modules:/usr/src/app/node_modules
+    ports:
+      - 8080:8080
+    networks:
+      - beavr
+
+networks:
+  beavr:
+
+volumes:
+  my-postgres-data:
+  front_node_modules:
+  back_node_modules:
+
+
