@@ -1,12 +1,11 @@
 FROM node:alpine
 
 WORKDIR /usr/src/app
-COPY --chown=node:node . .
 COPY --chown=node:node package*.json ./
 RUN npm install
+COPY --chown=node:node . .
 RUN npx prisma generate
 
-RUN npm i -g @nestjs/cli
+EXPOSE 8080
 
-RUN npm run build
 CMD ["npm", "run", "start:dev"]

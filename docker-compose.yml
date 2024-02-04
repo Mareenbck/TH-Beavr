@@ -14,8 +14,8 @@ services:
     env_file:
         - ./backend/.env
     ports:
+      - 8080:8080
       - 5555:5555
-      - 3000:3000
     networks:
       - beavr
 
@@ -41,8 +41,10 @@ services:
     volumes:
       - ./frontend:/usr/src/app
       - front_node_modules:/usr/src/app/node_modules
+    depends_on:
+      - api
     ports:
-      - 8080:8080
+      - 3000:3000
     networks:
       - beavr
 

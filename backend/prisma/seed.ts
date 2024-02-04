@@ -44,14 +44,12 @@ async function main() {
 	try {
 		const data = [];
 
-		fs.createReadStream('./UserData.csv')
+		fs.createReadStream('/usr/src/app/prisma/UserData.csv')
 		.pipe(csv({ separator: ';' }))
 		.on('data', (row) => {
 			data.push(row);
 		})
 		.on('end', () => {
-			// Now 'data' contains your CSV data
-			// Next, we'll use this data to insert into Prisma database
 			insertIntoPrisma(data);
 		});
 	} catch(e) {

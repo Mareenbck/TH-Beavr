@@ -1,11 +1,12 @@
-FROM node:latest AS dev
+FROM node:latest
 
 WORKDIR /usr/src/app
 
 COPY --chown=node:node package*.json ./
+RUN npm install
 COPY --chown=node:node . .
 
-RUN npm install
+EXPOSE 3000
+CMD ["npm", "start"]
 
 
-CMD ["npm", "run", "start"]
