@@ -6,38 +6,49 @@ export const prisma = new PrismaClient()
 
 async function insertIntoPrisma(data) {
 	for (const row of data) {
-	  const theme = await prisma.theme.upsert({
-		where: { title: row.theme },
-		update: {},
-		create: { title: row.theme },
-	  });
+		const theme = await prisma.theme.upsert({
+			where: { title: row.theme },
+			update: {},
+			create: { title: row.theme },
+		});
 
-	  const subTheme = await prisma.subTheme.upsert({
-		where: { title: row.subtheme },
-		update: {},
-		create: { title: row.subtheme },
-	  });
+		const subTheme = await prisma.subTheme.upsert({
+			where: { title: row.subtheme },
+			update: {},
+			create: { title: row.subtheme },
+		});
 
-	  const guideline = await prisma.guideline.upsert({
-		where: { internal_id: row.id },
-		update: {},
-		create: {
-		  indicator: row.indicator,
-		  description: row.description,
-		  internal_id: row.id,
+		const guideline = await prisma.guideline.upsert({
+			where: { internal_id: row.id },
+			update: {},
+			create: {
+				indicator: row.indicator,
+				description: row.description,
+				internal_id: row.id,
+			},
+		});
+
+		const existingQuestion = await prisma.question.findUnique({
+		where: {
+			themeId_subThemeId_guidelineId: {
+				themeId: theme.id,
+				subThemeId: subTheme.id,
+				guidelineId: guideline.id,
+			},
 		},
-	  });
+		});
 
-	  await prisma.question.create({
-		data: {
-		  theme: { connect: { id: theme.id } },
-		  subtheme: { connect: { id: subTheme.id } },
-		  guideline: { connect: { id: guideline.id } },
-		  result: { value: row.value, unit: row.unit },
-		},
-	  });
+		if (!existingQuestion) {
+			await prisma.question.create({
+				data: {
+					theme: { connect: { id: theme.id } },
+					subtheme: { connect: { id: subTheme.id } },
+					guideline: { connect: { id: guideline.id } },
+					result: { value: row.value, unit: row.unit },
+				},
+			});
+		}
 	}
-
 }
 
 async function main() {

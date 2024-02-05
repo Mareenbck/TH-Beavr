@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:lts
 
 WORKDIR /usr/src/app
 COPY --chown=node:node package*.json ./
@@ -8,4 +8,4 @@ RUN npx prisma generate
 
 EXPOSE 8080
 
-CMD ["npm", "run", "start:dev"]
+CMD ["npm", "run", "start:migrate:dev"]

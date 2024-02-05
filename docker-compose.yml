@@ -34,7 +34,7 @@ services:
 
 
   frontend:
-    container_name: react
+    container_name: client
     build:
       context: ./frontend/
       dockerfile: Dockerfile
