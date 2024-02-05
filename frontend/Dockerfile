@@ -1,12 +1,15 @@
-FROM node:lts
+FROM node:lts AS builder
 
 WORKDIR /usr/src/app
 
-COPY --chown=node:node package*.json ./
+COPY package*.json ./
 RUN npm install
-COPY --chown=node:node . .
+COPY . .
+
+FROM builder AS production
 
 EXPOSE 3000
-CMD ["npm", "start"]
+
+CMD ["npm", "build"]
 
 

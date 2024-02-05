@@ -1,11 +1,16 @@
-FROM node:lts
+FROM node:lts AS builder
 
 WORKDIR /usr/src/app
-COPY --chown=node:node package*.json ./
+COPY package*.json ./
 RUN npm install
-COPY --chown=node:node . .
+COPY . .
 RUN npx prisma generate
+
+# as development only
+# CMD ["npm", "run", "start:migrate:dev"]
+
+FROM builder AS production
 
 EXPOSE 8080
 
-CMD ["npm", "run", "start:migrate:dev"]
+CMD ["npm", "run", "start:prod"]
